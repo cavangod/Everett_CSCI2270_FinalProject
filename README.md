@@ -12,6 +12,9 @@ After that, simply answer the text prompts provided by the program. It should be
 ## Dependencies
 There are no dependencies for this project.
 
+## System Requirements
+This program should work on any machine capable of compiling C++11 code and executing the resulting binary.
+
 ## Group Members
 I worked on this project by myself.
 
