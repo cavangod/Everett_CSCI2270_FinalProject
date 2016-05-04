@@ -47,18 +47,23 @@ Subject getSubject()
 
     Subject subject;
     if (response == "animals") {
+		std::cout << "Guess from BEAR, PANDA, KOALA, ZEBRA, PENGUIN, LION, PANTHER, IGUANA, LEOPARD, LEMUR, DOG, CAT, HIPPO, GIRAFFE, SQUIRREL" << std::endl;
         subject = Subject::ANIMALS;
     }
     else if (response == "locations") {
+		std::cout << "Guess from LONDON, CALIFORNIA, MADAGASCAR, DETROIT, COLORADO, CHINA, SINGAPORE, ANTARCTICA, EGYPT, IOWA, IRAN, ITALTY, SYRIA, PARIS, JAPAN" << std::endl;
         subject = Subject::LOCATIONS;
     }
     else if (response == "television") {
+		std::cout << "Guess from PSYCH, LONGMIRE, ARROW, DAREDEVIL, DEXTER, SPARTACUS, LOST, SEINFELD, SUPERWOMAN, SCRUBS, SIMPSONS, SUPERNATURAL, ARTHUR, BARNEY, TELETUBBIES"<< std::endl;
         subject = Subject::TELEVISION;
     }
     else if (response == "books") {
+		std::cout << "Guess from MACBETH, HAMLET, DRACULA, OTHELLO, NIGHT, UGLIES, HOLES, TWILIGHT, IT, MATILDA, BELOVED, MOCKINGJAY, PRETTIES, TARTUFFE,ERAGON"<< std::endl;
         subject = Subject::BOOKS;
     }
     else {
+		std::cout << "Guess from LOOPER, CLOVERFIELD, SAW, BATMAN, SUPERMAN, DEADPOOL, XMEN, HULK, CONSTANTINE, MUMMY, WICKERMAN, HANCOCK, KICKASS, THOR, WOLVERINE"<< std::endl;
         subject = Subject::MOVIES;
     }
 
